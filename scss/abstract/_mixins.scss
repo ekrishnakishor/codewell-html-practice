@@ -1,0 +1,25 @@
+@mixin flexSpace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin touchButton {
+    color: $black;
+    font-size: 1vw;
+    width: 7vw;
+    height: 3vw;
+    background-color: yellow;
+    border: none;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    
+}
+
+@mixin pointer {
+    cursor: pointer;
+}

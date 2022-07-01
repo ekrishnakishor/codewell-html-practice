@@ -1,0 +1,23 @@
+header {
+    color: $white;
+    font-family: $primaryFont;
+    width: 100%;
+    margin-top: 2vw;
+    @include flexSpace();
+        h4 {
+            font-size: 2vw;
+            font-family: $headingTimes;
+        }
+        button{
+            @include touchButton();
+        }
+        .menu {
+            @include flex();
+            font-size: 1vw;
+            :hover {
+                color: $hover;
+                @include pointer();
+                border-bottom: 1px solid $white;
+            }
+        }
+}
